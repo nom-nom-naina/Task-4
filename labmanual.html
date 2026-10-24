@@ -1,0 +1,198 @@
+
+<html>
+<head>
+<title>Hotel Reservation Form and Victoria's Journal</title>
+<style>
+body {
+background-image: url("images.jpg");
+font-family: Arial;
+}
+.container {
+background-color: lightgray;
+padding: 20px;
+width: 600px;
+margin: 30px auto;
+}
+.title {
+color: red;
+text-align: center;
+font-weight: bold;
+font-size: 22px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: purple;
+}
+td {
+border: 1px solid black;
+padding: 8px;
+}
+.label-text {
+font-weight: bold;
+text-align: right;
+width: 35%;
+}
+#journal-wrapper {
+width: 750px;
+margin: 30px auto;
+background-color: white;
+padding: 20px;
+border: 4px solid white;
+overflow: auto;
+}
+.header-section {
+background-color: lightblue;
+border: 2px solid white;
+padding: 15px;
+margin-bottom: 20px;
+}
+.header-section h1 {
+margin: 0;
+color: blue;
+font-weight: bold;
+}
+.header-section span {
+color: black;
+font-weight: normal;
+}
+#friends-sidebar {
+float: left;
+width: 160px;
+background-color: pink;
+border: 2px solid black;
+padding: 10px;
+margin-right: 20px;
+box-sizing: border-box;
+}
+#friends-sidebar h2 {
+margin-top: 0;
+color: white;
+font-weight: bold;
+}
+#friends-sidebar ul {
+padding-left: 20px;
+color: white;
+}
+.posts-container {
+float: left;
+width: 570px;
+}
+.blog-entry {
+border: 2px solid blue;
+padding: 15px;
+margin-bottom: 20px;
+background-color: white;
+overflow: auto;
+}
+.entry-title {
+color: black;
+font-weight: bold;
+margin-top: 0;
+}
+.entry-image {
+float: right;
+width: 120px;
+margin-left: 15px;
+border: 1px solid gray;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<p class="title">Continental Hotel Reservation Form</p>
+<form>
+<table>
+<tr>
+<td class="label-text">Name</td>
+<td><input type="text" placeholder="Enter your name" size="30"></td>
+</tr>
+<tr>
+<td class="label-text">eMail</td>
+<td><input type="email" placeholder="info@continental.pk" size="30"></td>
+</tr>
+<tr>
+<td class="label-text">Mobile No</td>
+<td><input type="text" placeholder="Enter your cell number" size="30"></td>
+</tr>
+<tr>
+<td class="label-text">Arrival Time</td>
+<td><input type="time"></td>
+</tr>
+<tr>
+<td class="label-text">Departure</td>
+<td>
+<input type="date">
+<input type="time">
+</td>
+</tr>
+<tr>
+<td class="label-text">Room Type</td>
+<td>
+<input type="radio" name="room"> Single
+<input type="radio" name="room"> Double
+<br>
+<input type="radio" name="room"> Presidential Suite
+</td>
+</tr>
+<tr>
+<td class="label-text">Preferences</td>
+<td>
+<input type="checkbox"> Non-Smoking
+<br>
+<input type="checkbox"> Internet
+<br>
+<input type="checkbox"> Firm Mattress
+</td>
+</tr>
+<tr>
+<td class="label-text">Mode of Payment</td>
+<td>
+<input type="checkbox"> Cash
+<input type="checkbox"> Check
+<br>
+<input type="checkbox"> Credit Card
+<select>
+<option>Select Card</option>
+<option>Visa</option>
+<option>MasterCard</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Send Data">
+</td>
+</tr>
+</table>
+</form>
+</div>
+<hr>
+<div id="journal-wrapper">
+<div class="header-section">
+<h1>Victoria's Journal</h1>
+<span>So fresh and so clean</span>
+</div>
+<div id="friends-sidebar">
+<h2>Friends</h2>
+<ul>
+<li>100 Hobbies</li>
+<li>Big Will</li>
+<li>Conan the Librarian</li>
+</ul>
+</div>
+<div class="posts-container">
+<div class="blog-entry">
+<h3 class="entry-title">04/09/08: Spatulas</h3>
+<img class="entry-image" src="spatula.jpg" alt="Spatula">
+<p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+</div>
+<div class="blog-entry">
+<h3 class="entry-title">04/08/08: Cookie Cupcakes</h3>
+<img class="entry-image" src="cupcakes.jpg" alt="Cupcakes">
+<p>My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, "Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you." I wonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)</p>
+</div>
+</div>
+</div>
+</body>
+</html>
